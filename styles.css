@@ -9,6 +9,7 @@
   --max: 1160px;
   --font-sans: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-display: Optima, "Avenir Next", "Gill Sans", "Segoe UI", sans-serif;
+  --font-logo: "Cinzel", "Trajan Pro", "Times New Roman", serif;
 }
 
 * {
@@ -164,7 +165,7 @@ p {
 h1 {
   max-width: 980px;
   margin-bottom: 24px;
-  font-family: var(--font-display);
+  font-family: var(--font-logo);
   font-size: clamp(2.55rem, 5.4vw, 5.75rem);
   font-weight: 400;
   letter-spacing: 0.08em;
