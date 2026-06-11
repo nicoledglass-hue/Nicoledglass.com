@@ -7,6 +7,8 @@
   --line: #d8ccbd;
   --accent: #7a5c43;
   --max: 1160px;
+  --font-sans: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: Optima, "Avenir Next", "Gill Sans", "Segoe UI", sans-serif;
 }
 
 * {
@@ -21,7 +23,7 @@ body {
   margin: 0;
   background: var(--cream);
   color: var(--charcoal);
-  font-family: "Times New Roman", Times, serif;
+  font-family: var(--font-sans);
   line-height: 1.6;
   text-rendering: optimizeLegibility;
 }
@@ -68,7 +70,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -90,7 +92,7 @@ a {
   display: flex;
   align-items: center;
   gap: clamp(16px, 3vw, 34px);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.75rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
@@ -145,7 +147,7 @@ a {
 .section-kicker {
   margin: 0 0 24px;
   color: var(--muted);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.76rem;
   font-weight: 600;
   letter-spacing: 0.14em;
@@ -160,18 +162,23 @@ p {
 }
 
 h1 {
-  max-width: 920px;
-  margin-bottom: 18px;
-  font-size: clamp(3.75rem, 8.4vw, 7.8rem);
+  max-width: 980px;
+  margin-bottom: 24px;
+  font-family: var(--font-display);
+  font-size: clamp(2.55rem, 5.4vw, 5.75rem);
   font-weight: 400;
-  line-height: 0.92;
+  letter-spacing: 0.08em;
+  line-height: 1.02;
+  text-transform: uppercase;
 }
 
 .hero-headline {
   max-width: 860px;
   margin-bottom: 26px;
-  font-size: clamp(1.55rem, 3vw, 3.2rem);
-  line-height: 1.08;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.45vw, 2.55rem);
+  font-weight: 400;
+  line-height: 1.16;
 }
 
 .hero-copy {
@@ -183,7 +190,7 @@ h1 {
 .text-link {
   display: inline-block;
   margin-top: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.13em;
@@ -208,13 +215,15 @@ h1 {
 
 .intro-band p {
   margin-bottom: 6px;
-  font-size: clamp(1.5rem, 2.4vw, 2.2rem);
+  font-family: var(--font-display);
+  font-size: clamp(1.38rem, 2.1vw, 1.95rem);
+  letter-spacing: 0.03em;
   line-height: 1.1;
 }
 
 .intro-band span {
   color: var(--muted);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.76rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -240,14 +249,16 @@ h1 {
 
 h2 {
   margin-bottom: 0;
-  font-size: clamp(2.1rem, 4.7vw, 5rem);
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 3.4vw, 3.65rem);
   font-weight: 400;
-  line-height: 1;
+  letter-spacing: 0.025em;
+  line-height: 1.12;
 }
 
 h3 {
   margin-bottom: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.78rem;
   letter-spacing: 0.13em;
   text-transform: uppercase;
@@ -255,7 +266,7 @@ h3 {
 
 .prose {
   color: var(--muted);
-  font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+  font-size: clamp(0.98rem, 1.25vw, 1.08rem);
 }
 
 .prose p {
@@ -295,14 +306,16 @@ h3 {
 }
 
 .focus-list span {
-  font-size: clamp(1.35rem, 2.1vw, 2rem);
+  font-family: var(--font-display);
+  font-size: clamp(1.22rem, 1.85vw, 1.72rem);
+  letter-spacing: 0.025em;
   line-height: 1.2;
 }
 
 .focus-list small {
   flex: 0 0 220px;
   color: var(--muted);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   text-align: right;
@@ -318,7 +331,9 @@ h3 {
   padding: 18px 0;
   border-bottom: 1px solid var(--line);
   color: var(--charcoal);
-  font-size: 1.2rem;
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  letter-spacing: 0.025em;
 }
 
 .contact-section {
@@ -355,7 +370,7 @@ h3 {
   padding: 28px clamp(20px, 5vw, 56px);
   background: var(--charcoal);
   color: #d7cbbc;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.72rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -443,6 +458,6 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(3.4rem, 18vw, 5.4rem);
+    font-size: clamp(2.25rem, 13vw, 4.6rem);
   }
 }
