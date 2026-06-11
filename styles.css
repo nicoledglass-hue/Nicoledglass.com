@@ -315,6 +315,10 @@ h1 {
   margin-inline: auto;
 }
 
+.section-heading {
+  min-width: 0;
+}
+
 h2 {
   margin-bottom: 0;
   font-family: var(--font-display);
@@ -344,6 +348,27 @@ h3 {
 .about-section,
 .fees-section {
   background: var(--ivory);
+}
+
+.about-heading {
+  display: grid;
+  gap: clamp(34px, 5vw, 62px);
+}
+
+.portrait-panel {
+  width: min(100%, 420px);
+  margin: 0;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+
+.portrait-panel img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 0.86;
+  object-fit: cover;
+  object-position: 56% 36%;
+  filter: saturate(0.72) contrast(0.96);
 }
 
 .approach-section {
@@ -496,6 +521,15 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .portrait-panel {
+    width: min(100%, 560px);
+  }
+
+  .portrait-panel img {
+    aspect-ratio: 1.28;
+    object-position: 58% 38%;
+  }
+
   .focus-list li {
     display: grid;
   }
@@ -540,5 +574,9 @@ h3 {
 
   .article-note-image {
     width: 154px;
+  }
+
+  .portrait-panel img {
+    aspect-ratio: 0.95;
   }
 }
