@@ -366,6 +366,7 @@ h3 {
   display: block;
   width: 100%;
   aspect-ratio: 0.86;
+  border-radius: 42% 42% 4px 4px;
   object-fit: cover;
   object-position: 56% 36%;
   filter: grayscale(100%) brightness(0.96) contrast(1.08);
