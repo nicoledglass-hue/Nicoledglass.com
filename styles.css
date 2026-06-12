@@ -388,6 +388,10 @@ h3 {
   gap: clamp(34px, 5vw, 62px);
 }
 
+.about-section .section-kicker {
+  color: #0047ab;
+}
+
 .portrait-panel {
   width: min(100%, 420px);
   margin: 0;
