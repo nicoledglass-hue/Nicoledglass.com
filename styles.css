@@ -421,45 +421,31 @@ h3 {
   background: #f3ebdf;
 }
 
-.focus-list,
 .simple-list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.focus-list {
-  border-top: 1px solid var(--line);
-}
-
-.focus-list li {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 24px 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.focus-list span {
-  font-family: var(--font-display);
-  font-size: clamp(1.22rem, 1.85vw, 1.72rem);
-  letter-spacing: 0.025em;
-  line-height: 1.2;
-}
-
-.focus-list small {
-  flex: 0 0 220px;
-  color: var(--muted);
-  font-family: var(--font-sans);
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
-  text-align: right;
-  text-transform: uppercase;
-}
-
 .simple-list {
   margin-top: 28px;
   border-top: 1px solid var(--line);
+}
+
+.focus-image {
+  width: 100%;
+  margin: 0;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+
+.focus-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.45;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(100%) brightness(0.98) contrast(1.03);
 }
 
 .simple-list li {
@@ -570,15 +556,6 @@ h3 {
   .portrait-panel img {
     aspect-ratio: 1.28;
     object-position: 58% 38%;
-  }
-
-  .focus-list li {
-    display: grid;
-  }
-
-  .focus-list small {
-    flex-basis: auto;
-    text-align: left;
   }
 
   .hero-lower {
