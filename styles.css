@@ -133,13 +133,13 @@ a {
   min-height: calc(100vh - 76px);
   max-width: var(--max);
   margin: 0 auto;
-  padding: clamp(84px, 14vw, 150px) clamp(20px, 5vw, 56px) clamp(64px, 9vw, 108px);
+  padding: clamp(54px, 8vw, 92px) clamp(20px, 5vw, 56px) clamp(64px, 9vw, 108px);
 }
 
 .hero-rule {
   width: min(100%, 760px);
   height: 1px;
-  margin-bottom: clamp(54px, 9vw, 92px);
+  margin-bottom: clamp(40px, 6vw, 64px);
   background: linear-gradient(90deg, var(--charcoal), transparent);
   opacity: 0.38;
 }
@@ -429,6 +429,29 @@ h3 {
   background: #f3ebdf;
 }
 
+.focus-heading h2 {
+  margin-bottom: 30px;
+}
+
+.focus-areas {
+  display: grid;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.focus-areas li {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--charcoal);
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.1vw, 2rem);
+  line-height: 1.18;
+  letter-spacing: 0.01em;
+}
+
 .simple-list {
   padding: 0;
   margin: 0;
@@ -450,10 +473,10 @@ h3 {
 .focus-image img {
   display: block;
   width: 100%;
-  aspect-ratio: 1.45;
+  aspect-ratio: 0.82;
   object-fit: cover;
-  object-position: center;
-  filter: grayscale(100%) brightness(0.98) contrast(1.03);
+  object-position: 52% 48%;
+  filter: grayscale(100%) brightness(1.02) contrast(1.05);
 }
 
 .simple-list li {
