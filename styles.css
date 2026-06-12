@@ -368,7 +368,7 @@ h3 {
   aspect-ratio: 0.86;
   object-fit: cover;
   object-position: 56% 36%;
-  filter: brightness(0.94) saturate(1.04) contrast(1.02);
+  filter: grayscale(100%) brightness(0.96) contrast(1.08);
 }
 
 .approach-section {
