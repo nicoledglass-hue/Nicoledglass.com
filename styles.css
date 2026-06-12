@@ -358,18 +358,18 @@ h3 {
 .portrait-panel {
   width: min(100%, 420px);
   margin: 0;
-  border-top: 1px solid var(--line);
-  padding-top: 18px;
+  padding-top: 6px;
 }
 
 .portrait-panel img {
   display: block;
   width: 100%;
   aspect-ratio: 0.86;
-  border-radius: 42% 42% 4px 4px;
   object-fit: cover;
   object-position: 56% 36%;
   filter: grayscale(100%) brightness(0.96) contrast(1.08);
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 54%, rgba(0, 0, 0, 0.72) 72%, transparent 100%);
+  mask-image: radial-gradient(ellipse at center, #000 54%, rgba(0, 0, 0, 0.72) 72%, transparent 100%);
 }
 
 .approach-section {
