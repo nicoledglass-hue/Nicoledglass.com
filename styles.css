@@ -71,10 +71,10 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-family: var(--font-sans);
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
+  font-family: var(--font-logo);
+  font-size: 0.86rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
   text-decoration: none;
   text-transform: uppercase;
 }
