@@ -447,6 +447,18 @@ h3 {
   color: #0047ab;
 }
 
+.fees-section .section-grid {
+  gap: clamp(24px, 4vw, 54px);
+}
+
+.fees-section .simple-list {
+  margin-top: 10px;
+}
+
+.fees-section .simple-list li {
+  padding: 12px 0;
+}
+
 .hero .eyebrow {
   color: #0047ab;
 }
