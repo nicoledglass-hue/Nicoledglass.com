@@ -117,10 +117,10 @@ a {
   width: 42px;
   height: 42px;
   padding: 0;
-  border: 1px solid var(--charcoal);
+  border: 1px solid var(--gold);
   border-radius: 50%;
   background: transparent;
-  color: var(--charcoal);
+  color: var(--gold);
 }
 
 .nav-toggle-line {
@@ -167,6 +167,7 @@ p {
 h1 {
   max-width: 980px;
   margin-bottom: 24px;
+  color: var(--gold);
   font-family: var(--font-logo);
   font-size: clamp(2.25rem, 4.35vw, 4.85rem);
   font-weight: 400;
