@@ -361,6 +361,10 @@ h3 {
   background: var(--ivory);
 }
 
+.about-section {
+  padding-bottom: clamp(40px, 6vw, 68px);
+}
+
 .about-heading {
   display: grid;
   gap: clamp(34px, 5vw, 62px);
@@ -406,6 +410,7 @@ h3 {
 
 .focus-section {
   background: #f3ebdf;
+  padding-top: clamp(40px, 6vw, 68px);
 }
 
 .focus-areas {
