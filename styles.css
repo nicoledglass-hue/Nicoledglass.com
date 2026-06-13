@@ -143,8 +143,8 @@ a {
 
 .hero-intro {
   display: grid;
-  grid-template-columns: minmax(0, 700px) minmax(220px, 300px);
-  gap: clamp(34px, 7vw, 92px);
+  grid-template-columns: minmax(0, 670px) minmax(220px, 310px);
+  gap: clamp(46px, 9vw, 120px);
   align-items: start;
 }
 
@@ -222,6 +222,7 @@ h1 {
   margin-top: clamp(88px, 11vw, 132px);
   padding-top: 16px;
   border-top: 1px solid rgba(41, 39, 36, 0.22);
+  transform: translateX(clamp(0px, 2.4vw, 30px));
 }
 
 .newsletter-feature-label {
@@ -250,9 +251,10 @@ h1 {
 
 .newsletter-feature figcaption {
   margin-top: 10px;
-  color: var(--muted);
+  color: var(--gold);
   font-size: 0.76rem;
   line-height: 1.4;
+  text-align: left;
 }
 
 .hero-lower {
@@ -632,6 +634,7 @@ h3 {
     justify-self: start;
     width: min(100%, 340px);
     margin-top: 42px;
+    transform: none;
   }
 
   .portrait-panel {
