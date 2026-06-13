@@ -419,7 +419,7 @@ h3 {
 .focus-areas li {
   padding: 18px 0;
   border-bottom: 1px solid var(--line);
-  color: var(--charcoal);
+  color: var(--gold);
   font-family: var(--font-display);
   font-size: clamp(1.35rem, 2.1vw, 2rem);
   line-height: 1.18;
