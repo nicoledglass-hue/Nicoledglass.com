@@ -1,12 +1,12 @@
 :root {
-  --cream: #f7f1e8;
-  --ivory: #fffaf2;
-  --linen: #ede3d6;
+  --cream: #f8efe2;
+  --ivory: #fff7ea;
+  --linen: #ead8c0;
   --charcoal: #292724;
   --graphite: #272a2c;
-  --muted: #6d665d;
-  --line: #d8ccbd;
-  --accent: #7a5c43;
+  --muted: #5d4435;
+  --line: #d7c2aa;
+  --accent: #6f462f;
   --gold: #a77f2b;
   --red: #8f2d24;
   --max: 1160px;
@@ -66,7 +66,7 @@ a {
   min-height: 76px;
   padding: 18px clamp(20px, 5vw, 56px);
   border-bottom: 1px solid rgba(41, 39, 36, 0.11);
-  background: rgba(247, 241, 232, 0.94);
+  background: rgba(248, 239, 226, 0.94);
   backdrop-filter: blur(12px);
 }
 
@@ -502,7 +502,7 @@ h3 {
 }
 
 .focus-section {
-  background: #f3ebdf;
+  background: #f0e1cf;
   padding-top: clamp(40px, 6vw, 68px);
 }
 
