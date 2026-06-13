@@ -383,6 +383,10 @@ h3 {
   color: #0047ab;
 }
 
+#approach-title {
+  color: var(--graphite);
+}
+
 .focus-section .section-kicker {
   color: #0047ab;
 }
