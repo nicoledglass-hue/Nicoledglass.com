@@ -247,6 +247,7 @@ h1 {
   border: 1px solid rgba(41, 39, 36, 0.14);
   background: var(--ivory);
   box-shadow: 0 18px 42px rgba(41, 39, 36, 0.08);
+  filter: grayscale(100%) contrast(1.04);
 }
 
 .newsletter-feature figcaption {
