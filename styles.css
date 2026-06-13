@@ -449,11 +449,11 @@ h3 {
 }
 
 .fees-section .section-grid {
-  gap: clamp(24px, 4vw, 54px);
+  gap: clamp(12px, 2.6vw, 32px);
 }
 
 .fees-section .simple-list {
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .fees-section .simple-list li {
