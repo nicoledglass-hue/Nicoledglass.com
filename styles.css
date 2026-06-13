@@ -3,6 +3,7 @@
   --ivory: #fffaf2;
   --linen: #ede3d6;
   --charcoal: #292724;
+  --graphite: #272a2c;
   --muted: #6d665d;
   --line: #d8ccbd;
   --accent: #7a5c43;
@@ -473,26 +474,26 @@ h3 {
 }
 
 .contact-section {
-  background: var(--charcoal);
-  color: var(--ivory);
+  background: var(--graphite);
+  color: #f1f2f1;
 }
 
 .contact-section .section-kicker,
 .contact-section .contact-details,
 .contact-section a {
-  color: #e9ded0;
+  color: #eceeed;
 }
 
 .contact-details {
   display: grid;
   gap: 30px;
-  color: #e9ded0;
+  color: #eceeed;
   font-size: 1.08rem;
 }
 
 .contact-details div {
   padding-bottom: 28px;
-  border-bottom: 1px solid rgba(255, 250, 242, 0.2);
+  border-bottom: 1px solid rgba(236, 238, 237, 0.22);
 }
 
 .contact-details p {
@@ -504,8 +505,8 @@ h3 {
   justify-content: space-between;
   gap: 24px;
   padding: 28px clamp(20px, 5vw, 56px);
-  background: var(--charcoal);
-  color: #d7cbbc;
+  background: var(--graphite);
+  color: #d7dcda;
   font-family: var(--font-sans);
   font-size: 0.72rem;
   letter-spacing: 0.08em;
