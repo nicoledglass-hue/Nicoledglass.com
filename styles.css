@@ -402,10 +402,10 @@ h3 {
   width: 100%;
   aspect-ratio: 0.86;
   object-fit: cover;
-  object-position: 56% 36%;
-  filter: grayscale(100%) brightness(0.96) contrast(1.08);
-  -webkit-mask-image: radial-gradient(ellipse at center, #000 54%, rgba(0, 0, 0, 0.72) 72%, transparent 100%);
-  mask-image: radial-gradient(ellipse at center, #000 54%, rgba(0, 0, 0, 0.72) 72%, transparent 100%);
+  object-position: 63% 34%;
+  filter: grayscale(100%) brightness(0.97) contrast(1.05);
+  -webkit-mask-image: radial-gradient(ellipse at 64% 42%, #000 50%, rgba(0, 0, 0, 0.68) 72%, transparent 100%);
+  mask-image: radial-gradient(ellipse at 64% 42%, #000 50%, rgba(0, 0, 0, 0.68) 72%, transparent 100%);
 }
 
 .approach-section {
@@ -556,8 +556,8 @@ h3 {
   }
 
   .portrait-panel img {
-    aspect-ratio: 1.28;
-    object-position: 58% 38%;
+    aspect-ratio: 1.12;
+    object-position: 66% 35%;
   }
 
   .hero-lower {
@@ -606,6 +606,7 @@ h3 {
   }
 
   .portrait-panel img {
-    aspect-ratio: 0.95;
+    aspect-ratio: 0.92;
+    object-position: 66% 34%;
   }
 }
