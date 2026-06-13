@@ -141,6 +141,17 @@ a {
   padding: clamp(54px, 8vw, 92px) clamp(20px, 5vw, 56px) clamp(36px, 5vw, 58px);
 }
 
+.hero-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 700px) minmax(220px, 300px);
+  gap: clamp(34px, 7vw, 92px);
+  align-items: start;
+}
+
+.hero-primary {
+  min-width: 0;
+}
+
 .hero-rule {
   width: min(100%, 760px);
   height: 1px;
@@ -203,6 +214,45 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.13em;
   text-transform: uppercase;
+}
+
+.newsletter-feature {
+  justify-self: end;
+  width: min(100%, 292px);
+  margin-top: clamp(88px, 11vw, 132px);
+  padding-top: 16px;
+  border-top: 1px solid rgba(41, 39, 36, 0.22);
+}
+
+.newsletter-feature-label {
+  margin: 0 0 12px;
+  color: var(--gold);
+  font-family: var(--font-sans);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.newsletter-feature figure {
+  margin: 0;
+}
+
+.newsletter-feature img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(41, 39, 36, 0.14);
+  background: var(--ivory);
+  box-shadow: 0 18px 42px rgba(41, 39, 36, 0.08);
+}
+
+.newsletter-feature figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.4;
 }
 
 .hero-lower {
@@ -574,6 +624,16 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .hero-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .newsletter-feature {
+    justify-self: start;
+    width: min(100%, 340px);
+    margin-top: 42px;
+  }
+
   .portrait-panel {
     width: min(100%, 560px);
   }
@@ -618,6 +678,10 @@ h3 {
 
   h1 {
     font-size: clamp(2.05rem, 11vw, 4rem);
+  }
+
+  .newsletter-feature {
+    width: min(100%, 292px);
   }
 
   .article-note {
