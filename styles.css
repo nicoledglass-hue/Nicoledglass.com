@@ -641,12 +641,13 @@ h3 {
 
   .hero-intro {
     grid-template-columns: 1fr;
+    gap: 18px;
   }
 
   .newsletter-feature {
     justify-self: start;
     width: min(100%, 340px);
-    margin-top: 18px;
+    margin-top: 0;
     transform: none;
   }
 
