@@ -646,7 +646,7 @@ h3 {
   .newsletter-feature {
     justify-self: start;
     width: min(100%, 340px);
-    margin-top: 34px;
+    margin-top: 18px;
     transform: none;
   }
 
