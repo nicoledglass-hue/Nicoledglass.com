@@ -299,38 +299,6 @@ h1 {
   text-transform: uppercase;
 }
 
-.intro-band {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border-block: 1px solid var(--line);
-}
-
-.intro-band div {
-  min-height: 146px;
-  padding: 34px clamp(20px, 5vw, 56px);
-  border-right: 1px solid var(--line);
-}
-
-.intro-band div:last-child {
-  border-right: 0;
-}
-
-.intro-band p {
-  margin-bottom: 6px;
-  font-family: var(--font-display);
-  font-size: clamp(1.38rem, 2.1vw, 1.95rem);
-  letter-spacing: 0.03em;
-  line-height: 1.1;
-}
-
-.intro-band span {
-  color: var(--muted);
-  font-family: var(--font-sans);
-  font-size: 0.76rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 .section {
   padding: clamp(72px, 12vw, 132px) clamp(20px, 5vw, 56px);
   border-bottom: 1px solid var(--line);
@@ -561,20 +529,6 @@ h3 {
     opacity: 1;
     pointer-events: auto;
     transform: translateY(0);
-  }
-
-  .intro-band {
-    grid-template-columns: 1fr;
-  }
-
-  .intro-band div {
-    min-height: 120px;
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .intro-band div:last-child {
-    border-bottom: 0;
   }
 
   .section-grid {
