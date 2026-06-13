@@ -134,7 +134,7 @@ a {
   min-height: calc(100vh - 76px);
   max-width: var(--max);
   margin: 0 auto;
-  padding: clamp(54px, 8vw, 92px) clamp(20px, 5vw, 56px) clamp(64px, 9vw, 108px);
+  padding: clamp(54px, 8vw, 92px) clamp(20px, 5vw, 56px) clamp(36px, 5vw, 58px);
 }
 
 .hero-rule {
@@ -392,6 +392,7 @@ h3 {
 
 .approach-section {
   background: var(--cream);
+  padding-top: clamp(46px, 7vw, 78px);
 }
 
 .focus-section {
