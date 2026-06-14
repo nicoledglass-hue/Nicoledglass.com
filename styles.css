@@ -209,7 +209,7 @@ h1 {
 .text-link {
   display: inline-block;
   margin-top: 18px;
-  color: var(--charcoal);
+  color: var(--red);
   font-family: var(--font-sans);
   font-size: 0.78rem;
   font-weight: 600;
