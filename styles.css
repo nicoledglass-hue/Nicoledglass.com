@@ -598,6 +598,10 @@ h3 {
   color: var(--gold);
 }
 
+.contact-section .email-link {
+  color: var(--gold);
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
