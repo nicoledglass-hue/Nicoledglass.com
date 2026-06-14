@@ -602,6 +602,10 @@ h3 {
   color: var(--gold);
 }
 
+.contact-section .phone-link {
+  color: var(--gold);
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
