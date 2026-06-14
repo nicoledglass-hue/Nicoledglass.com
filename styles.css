@@ -457,6 +457,7 @@ h3 {
 }
 
 .fees-section .simple-list li {
+  color: var(--gold);
   padding: 12px 0;
 }
 
