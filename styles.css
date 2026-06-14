@@ -569,9 +569,13 @@ h3 {
 }
 
 .contact-section .section-kicker,
-.contact-section .contact-details,
 .contact-section a {
   color: var(--charcoal);
+}
+
+.contact-section .section-kicker,
+.contact-details h3 {
+  color: var(--red);
 }
 
 .contact-details {
