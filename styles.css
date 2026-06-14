@@ -358,7 +358,7 @@ h1 {
 }
 
 .hero-quote figcaption {
-  color: var(--charcoal);
+  color: var(--red);
   font-family: var(--font-sans);
   font-size: 0.68rem;
   font-weight: 600;
