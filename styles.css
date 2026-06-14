@@ -106,6 +106,7 @@ a {
 }
 
 .site-nav a {
+  color: var(--gold);
   text-decoration: none;
 }
 
