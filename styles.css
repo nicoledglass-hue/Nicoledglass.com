@@ -1,7 +1,7 @@
 :root {
-  --cream: #fbfaf7;
-  --ivory: #fffefa;
-  --linen: #efede6;
+  --cream: #faf6ef;
+  --ivory: #fffaf3;
+  --linen: #eee7dc;
   --charcoal: #292724;
   --graphite: #272a2c;
   --muted: #292724;
@@ -67,7 +67,7 @@ a {
   min-height: 76px;
   padding: 18px clamp(20px, 5vw, 56px);
   border-bottom: 1px solid rgba(41, 39, 36, 0.11);
-  background: rgba(251, 250, 247, 0.94);
+  background: rgba(250, 246, 239, 0.94);
   backdrop-filter: blur(12px);
 }
 
@@ -501,6 +501,11 @@ h3 {
 .approach-section {
   background: var(--cream);
   padding-top: clamp(28px, 4vw, 44px);
+}
+
+.approach-section .section-kicker {
+  padding-top: 18px;
+  border-top: 1px solid rgba(41, 39, 36, 0.18);
 }
 
 .focus-section {
