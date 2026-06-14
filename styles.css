@@ -209,7 +209,7 @@ h1 {
 .text-link {
   display: inline-block;
   margin-top: 18px;
-  color: var(--gold);
+  color: var(--charcoal);
   font-family: var(--font-sans);
   font-size: 0.78rem;
   font-weight: 600;
@@ -228,7 +228,7 @@ h1 {
 
 .newsletter-feature-label {
   margin: 0 0 12px;
-  color: var(--gold);
+  color: var(--charcoal);
   font-family: var(--font-sans);
   font-size: 0.64rem;
   font-weight: 600;
@@ -252,7 +252,7 @@ h1 {
 
 .newsletter-feature figcaption {
   margin-top: 10px;
-  color: var(--gold);
+  color: var(--charcoal);
   font-size: 0.76rem;
   line-height: 1.4;
   text-align: left;
@@ -306,7 +306,7 @@ h1 {
 }
 
 .article-note-label {
-  color: var(--gold);
+  color: var(--charcoal);
 }
 
 .article-note-source {
@@ -358,7 +358,7 @@ h1 {
 }
 
 .hero-quote figcaption {
-  color: var(--gold);
+  color: var(--charcoal);
   font-family: var(--font-sans);
   font-size: 0.68rem;
   font-weight: 600;
@@ -518,7 +518,7 @@ h3 {
 .focus-areas li {
   padding: 18px 0;
   border-bottom: 1px solid var(--line);
-  color: var(--gold);
+  color: var(--charcoal);
   font-family: var(--font-display);
   font-size: clamp(1.35rem, 2.1vw, 2rem);
   line-height: 1.18;
@@ -555,7 +555,7 @@ h3 {
 .simple-list li {
   padding: 18px 0;
   border-bottom: 1px solid var(--line);
-  color: var(--gold);
+  color: var(--charcoal);
   font-family: var(--font-display);
   font-size: 1.08rem;
   letter-spacing: 0.025em;
