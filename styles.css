@@ -348,7 +348,7 @@ h1 {
   border-top: 1px solid rgba(41, 39, 36, 0.22);
 }
 
-.hero-quote blockquote {
+.hero .hero-quote blockquote {
   margin: 0 0 12px;
   color: var(--gold);
   font-family: var(--font-display);
