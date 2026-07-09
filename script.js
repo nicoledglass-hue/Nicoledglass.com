@@ -1,10 +1,16 @@
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelectorAll(".site-nav a");
 const year = document.querySelector("#year");
+const contactEmail = "contact@nicoledglass.com";
 
 if (year) {
   year.textContent = new Date().getFullYear();
 }
+
+document.querySelectorAll(".email-link, a[href^='mailto:']").forEach((link) => {
+  link.textContent = contactEmail;
+  link.setAttribute("href", `mailto:${contactEmail}`);
+});
 
 if (navToggle) {
   navToggle.addEventListener("click", () => {
