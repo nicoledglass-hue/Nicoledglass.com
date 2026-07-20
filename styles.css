@@ -566,6 +566,10 @@ h3 {
   color: var(--gold);
 }
 
+.address-line {
+  color: var(--gold);
+}
+
 .contact-section .email-link {
   color: var(--gold);
 }
