@@ -416,7 +416,8 @@ h3 {
 }
 
 .about-section,
-.fees-section {
+.fees-section,
+.faq-section {
   background: var(--ivory);
 }
 
@@ -437,6 +438,11 @@ h3 {
 }
 
 .focus-section .section-kicker {
+  color: var(--red);
+}
+
+.topics-section .section-kicker,
+.faq-section .section-kicker {
   color: var(--red);
 }
 
@@ -531,6 +537,44 @@ h3 {
   letter-spacing: 0.025em;
 }
 
+.resource-list,
+.profile-links {
+  padding: 0;
+  margin: 24px 0 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.resource-list li,
+.profile-links li {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.resource-list a,
+.profile-links a,
+.site-footer a {
+  color: var(--gold);
+}
+
+.faq-list {
+  display: grid;
+  gap: 26px;
+}
+
+.faq-list div {
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+.content-page .hero {
+  max-width: var(--max);
+}
+
+.content-page .hero-copy {
+  max-width: 760px;
+}
+
 .contact-section {
   background: var(--ivory);
   color: var(--charcoal);
@@ -579,6 +623,10 @@ h3 {
 }
 
 .contact-section .booking-link {
+  color: var(--gold);
+}
+
+.contact-section .profile-links a {
   color: var(--gold);
 }
 
