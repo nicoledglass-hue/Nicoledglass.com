@@ -561,13 +561,27 @@ h3 {
 }
 
 .focus-areas li {
-  padding: 18px 0;
+  padding: 22px 0;
   border-bottom: 1px solid var(--line);
+}
+
+.focus-areas h3 {
+  margin: 0 0 9px;
   color: var(--gold);
   font-family: var(--font-display);
   font-size: clamp(1.35rem, 2.1vw, 2rem);
+  font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.focus-areas p {
+  max-width: 620px;
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(0.98rem, 1.18vw, 1.06rem);
+  line-height: 1.62;
 }
 
 .simple-list {
