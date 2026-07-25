@@ -110,11 +110,25 @@ a {
   text-decoration: none;
 }
 
+.site-nav .nav-contact {
+  padding: 10px 14px;
+  border: 1px solid var(--gold);
+  background: var(--gold);
+  color: var(--ivory);
+}
+
 .site-nav a:hover,
 .site-nav a:focus-visible,
 .text-link:hover,
 .text-link:focus-visible {
   color: var(--accent);
+}
+
+.site-nav .nav-contact:hover,
+.site-nav .nav-contact:focus-visible {
+  border-color: var(--charcoal);
+  background: var(--charcoal);
+  color: var(--ivory);
 }
 
 .nav-toggle {
@@ -175,6 +189,7 @@ a {
   justify-items: end;
   gap: 16px;
   margin-left: auto;
+  min-width: max-content;
 }
 
 .practice-cta-actions {
@@ -849,24 +864,28 @@ h3 {
   }
 
   .practice-cta-inner {
-    display: grid;
-    justify-items: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
     gap: 14px;
   }
 
   .practice-cta-group {
-    justify-items: start;
-    margin-left: 0;
+    justify-items: end;
+    margin-left: auto;
   }
 
-  .practice-cta-treatment,
-  .practice-cta p {
+  .practice-cta-treatment {
     text-align: left;
+  }
+
+  .practice-cta p {
+    text-align: right;
   }
 
   .practice-cta-actions {
     width: 100%;
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
 
   .section-grid {
@@ -921,6 +940,11 @@ h3 {
   .practice-cta-actions {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .practice-cta-group {
+    min-width: 0;
+    width: 100%;
   }
 
   .practice-cta a {
