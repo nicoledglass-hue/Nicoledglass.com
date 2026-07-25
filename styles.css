@@ -111,21 +111,7 @@ a {
 }
 
 .site-nav .nav-contact {
-  position: relative;
-  padding: 10px 14px;
-  border: 1px solid var(--red);
-  background: var(--red);
-  color: var(--gold);
-}
-
-.site-nav .nav-contact::after {
-  position: absolute;
-  right: 12px;
-  bottom: 6px;
-  left: 12px;
-  height: 1px;
-  background: var(--gold);
-  content: "";
+  color: var(--red);
 }
 
 .site-nav a:hover,
@@ -137,9 +123,7 @@ a {
 
 .site-nav .nav-contact:hover,
 .site-nav .nav-contact:focus-visible {
-  border-color: var(--charcoal);
-  background: var(--charcoal);
-  color: var(--ivory);
+  color: var(--accent);
 }
 
 .nav-toggle {
