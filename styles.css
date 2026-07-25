@@ -12,7 +12,7 @@
   --max: 1160px;
   --section-y: clamp(44px, 6vw, 68px);
   --font-sans: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: Optima, "Avenir Next", "Gill Sans", "Segoe UI", sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --font-logo: "Cinzel", "Trajan Pro", "Times New Roman", serif;
 }
 
@@ -28,7 +28,7 @@ body {
   margin: 0;
   background: var(--cream);
   color: var(--charcoal);
-  font-family: var(--font-sans);
+  font-family: var(--font-display);
   line-height: 1.6;
   text-rendering: optimizeLegibility;
 }
@@ -142,11 +142,10 @@ a {
 }
 
 .practice-cta-inner {
-  display: grid;
-  justify-items: end;
-  gap: 16px;
-  max-width: none;
-  margin: 0;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: clamp(24px, 7vw, 110px);
   padding: clamp(22px, 3vw, 34px) clamp(20px, 5vw, 56px) clamp(24px, 3.2vw, 38px);
 }
 
@@ -154,9 +153,28 @@ a {
   margin: 0;
   color: var(--muted);
   font-family: var(--font-display);
-  font-size: clamp(0.95rem, 1.35vw, 1.08rem);
-  line-height: 1.3;
+  font-size: clamp(1.08rem, 1.45vw, 1.3rem);
+  line-height: 1.22;
   text-align: right;
+}
+
+.practice-cta-treatment {
+  max-width: 380px;
+  color: var(--red);
+  font-family: var(--font-logo);
+  font-size: clamp(0.74rem, 1vw, 0.88rem);
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  line-height: 1.45;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.practice-cta-group {
+  display: grid;
+  justify-items: end;
+  gap: 16px;
+  margin-left: auto;
 }
 
 .practice-cta-actions {
@@ -173,6 +191,7 @@ a {
   justify-content: center;
   min-height: 44px;
   padding: 12px 20px;
+  font-family: var(--font-sans);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -274,7 +293,9 @@ h1 {
 .hero-copy {
   max-width: 650px;
   color: var(--muted);
-  font-size: clamp(1.05rem, 1.6vw, 1.28rem);
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 1.8vw, 1.48rem);
+  line-height: 1.5;
 }
 
 .text-link {
@@ -462,10 +483,10 @@ h1 {
 h2 {
   margin-bottom: 0;
   font-family: var(--font-display);
-  font-size: clamp(1.9rem, 3.4vw, 3.65rem);
-  font-weight: 400;
+  font-size: clamp(2.15rem, 3.8vw, 4rem);
+  font-weight: 500;
   letter-spacing: 0.025em;
-  line-height: 1.12;
+  line-height: 1.04;
 }
 
 h3 {
@@ -478,7 +499,9 @@ h3 {
 
 .prose {
   color: var(--muted);
-  font-size: clamp(0.98rem, 1.25vw, 1.08rem);
+  font-family: var(--font-display);
+  font-size: clamp(1.12rem, 1.42vw, 1.25rem);
+  line-height: 1.55;
 }
 
 .prose p {
@@ -570,8 +593,8 @@ h3 {
   margin: 0 0 9px;
   color: var(--gold);
   font-family: var(--font-display);
-  font-size: clamp(1.35rem, 2.1vw, 2rem);
-  font-weight: 400;
+  font-size: clamp(1.55rem, 2.35vw, 2.25rem);
+  font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.01em;
   text-transform: none;
@@ -581,8 +604,9 @@ h3 {
   max-width: 620px;
   margin: 0;
   color: var(--muted);
-  font-size: clamp(0.98rem, 1.18vw, 1.06rem);
-  line-height: 1.62;
+  font-family: var(--font-display);
+  font-size: clamp(1.08rem, 1.34vw, 1.18rem);
+  line-height: 1.58;
 }
 
 .simple-list {
@@ -825,17 +849,24 @@ h3 {
   }
 
   .practice-cta-inner {
-    justify-items: end;
+    display: grid;
+    justify-items: start;
     gap: 14px;
   }
 
+  .practice-cta-group {
+    justify-items: start;
+    margin-left: 0;
+  }
+
+  .practice-cta-treatment,
   .practice-cta p {
-    text-align: right;
+    text-align: left;
   }
 
   .practice-cta-actions {
     width: 100%;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
 
   .section-grid {
