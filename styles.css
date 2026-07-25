@@ -112,8 +112,8 @@ a {
 
 .site-nav .nav-contact {
   padding: 10px 14px;
-  border: 1px solid var(--gold);
-  background: var(--gold);
+  border: 1px solid var(--red);
+  background: var(--red);
   color: var(--ivory);
 }
 
@@ -735,7 +735,7 @@ h3 {
   justify-content: space-between;
   gap: 20px;
   padding: 18px 0;
-  color: var(--red);
+  color: var(--gold);
   cursor: pointer;
   font-family: var(--font-sans);
   font-size: 0.78rem;
