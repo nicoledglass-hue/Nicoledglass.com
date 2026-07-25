@@ -689,6 +689,13 @@ h3 {
   margin-bottom: 6px;
 }
 
+.contact-note {
+  max-width: 560px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
 .office-hours-line {
   color: var(--gold);
 }
