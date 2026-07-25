@@ -145,8 +145,8 @@ a {
   display: grid;
   justify-items: start;
   gap: 16px;
-  max-width: var(--max);
-  margin: 0 auto;
+  max-width: none;
+  margin: 0;
   padding: clamp(22px, 3vw, 34px) clamp(20px, 5vw, 56px) clamp(24px, 3.2vw, 38px);
 }
 
@@ -663,6 +663,10 @@ h3 {
   color: var(--charcoal);
 }
 
+.contact-section .section-grid {
+  grid-template-columns: minmax(0, 760px);
+}
+
 .contact-section .section-kicker,
 .contact-section a {
   color: var(--charcoal);
@@ -675,18 +679,70 @@ h3 {
 
 .contact-details {
   display: grid;
-  gap: 30px;
+  gap: 0;
   color: var(--charcoal);
   font-size: 1.08rem;
+  border-top: 1px solid var(--line);
 }
 
-.contact-details div {
-  padding-bottom: 28px;
+.contact-details details {
   border-bottom: 1px solid var(--line);
+}
+
+.contact-details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 0;
+  color: var(--red);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.contact-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.contact-details summary::after {
+  content: "+";
+  color: var(--gold);
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.contact-details details[open] summary::after {
+  content: "-";
+}
+
+.contact-panel {
+  padding: 0 0 22px;
+}
+
+.contact-panel .profile-links {
+  margin: 0;
+  border-top: 0;
+}
+
+.contact-panel .profile-links li {
+  padding: 8px 0;
 }
 
 .contact-details p {
   margin-bottom: 6px;
+}
+
+.contact-section a,
+.contact-section a:hover,
+.contact-section a:focus-visible {
+  text-decoration: none;
 }
 
 .contact-note {
