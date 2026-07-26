@@ -644,7 +644,7 @@ h3 {
   aspect-ratio: 4 / 3;
   object-fit: cover;
   object-position: 50% 50%;
-  filter: grayscale(100%) brightness(1.02) contrast(1.05);
+  filter: brightness(0.96) contrast(1.04) saturate(0.92);
 }
 
 .focus-image figcaption {
