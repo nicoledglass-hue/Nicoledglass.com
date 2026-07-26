@@ -611,6 +611,16 @@ h3 {
   text-transform: none;
 }
 
+.focus-areas h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.focus-areas h3 a:hover,
+.focus-areas h3 a:focus-visible {
+  color: var(--red);
+}
+
 .focus-areas p {
   max-width: 620px;
   margin: 0;
@@ -684,6 +694,14 @@ h3 {
 .profile-links a,
 .site-footer a {
   color: var(--gold);
+}
+
+.compact-resources {
+  margin-top: 14px;
+}
+
+.compact-resources li {
+  padding: 10px 0;
 }
 
 .faq-list {
