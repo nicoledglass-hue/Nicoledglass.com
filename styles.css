@@ -573,7 +573,8 @@ h3 {
 
 .about-section,
 .fees-section,
-.faq-section {
+.faq-section,
+.reflections-section {
   background: var(--ivory);
 }
 
@@ -598,7 +599,8 @@ h3 {
 }
 
 .topics-section .section-kicker,
-.faq-section .section-kicker {
+.faq-section .section-kicker,
+.reflections-section .section-kicker {
   color: var(--red);
 }
 
@@ -754,6 +756,37 @@ h3 {
 
 .compact-resources li {
   padding: 10px 0;
+}
+
+.reflection-links {
+  margin-top: 20px;
+}
+
+.reflection-links a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.reflection-links a:hover,
+.reflection-links a:focus-visible {
+  color: var(--red);
+}
+
+.article-hero {
+  max-width: 940px;
+}
+
+.article-hero h1 {
+  max-width: 860px;
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 4vw, 4.2rem);
+  letter-spacing: 0.025em;
+  line-height: 1.06;
+  text-transform: none;
+}
+
+.article-prose {
+  max-width: 760px;
 }
 
 .faq-list {
