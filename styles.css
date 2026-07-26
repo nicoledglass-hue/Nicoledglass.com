@@ -469,6 +469,7 @@ h1 {
 }
 
 .section {
+  scroll-margin-top: 90px;
   padding: var(--section-y) clamp(20px, 5vw, 56px);
   border-bottom: 1px solid var(--line);
 }
@@ -640,10 +641,20 @@ h3 {
 .focus-image img {
   display: block;
   width: 100%;
-  aspect-ratio: 0.82;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  object-position: 52% 48%;
+  object-position: 50% 50%;
   filter: grayscale(100%) brightness(1.02) contrast(1.05);
+}
+
+.focus-image figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
 .simple-list li {
