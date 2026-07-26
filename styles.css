@@ -235,6 +235,58 @@ a {
   border-color: var(--charcoal);
 }
 
+.page-cta {
+  border-bottom: 1px solid rgba(41, 39, 36, 0.11);
+  background: var(--ivory);
+}
+
+.page-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 18px clamp(20px, 5vw, 56px);
+}
+
+.page-cta p {
+  margin: 0;
+  color: var(--red);
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.page-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.page-cta a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  color: var(--gold);
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.page-cta .page-cta-book {
+  padding: 10px 16px;
+  border: 1px solid var(--red);
+  background: var(--red);
+  color: var(--ivory);
+}
+
 .hero {
   min-height: auto;
   max-width: var(--max);
@@ -714,6 +766,10 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.content-page .faq-section {
+  background: var(--cream);
+}
+
 .content-page .hero {
   max-width: var(--max);
 }
@@ -912,6 +968,10 @@ h3 {
     justify-content: flex-end;
   }
 
+  .page-cta-inner {
+    align-items: flex-start;
+  }
+
   .section-grid {
     grid-template-columns: 1fr;
   }
@@ -973,6 +1033,12 @@ h3 {
 
   .practice-cta a {
     width: 100%;
+  }
+
+  .page-cta-inner,
+  .page-cta-actions {
+    display: grid;
+    justify-items: start;
   }
 
   h1 {
