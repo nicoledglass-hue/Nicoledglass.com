@@ -11,8 +11,8 @@
   --red: #8f2d24;
   --max: 1160px;
   --section-y: clamp(44px, 6vw, 68px);
-  --font-sans: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-logo);
+  --font-display: var(--font-logo);
   --font-logo: "Cinzel", "Trajan Pro", "Times New Roman", serif;
 }
 
