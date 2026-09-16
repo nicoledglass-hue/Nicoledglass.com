@@ -1,7 +1,7 @@
 :root {
-  --cream: #fffefc;
-  --ivory: #fffffe;
-  --linen: #eee7dc;
+  --cream: #ffffff;
+  --ivory: #ffffff;
+  --linen: #ffffff;
   --charcoal: #292724;
   --graphite: #272a2c;
   --muted: #292724;
@@ -67,7 +67,7 @@ a {
   min-height: 76px;
   padding: 18px clamp(20px, 5vw, 56px);
   border-bottom: 1px solid rgba(41, 39, 36, 0.11);
-  background: rgba(255, 254, 252, 0.94);
+  background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(12px);
 }
 
